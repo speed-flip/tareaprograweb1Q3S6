@@ -8,4 +8,9 @@
 
 <div class="toolbar-spacing"></div>
 
-<app-heading title="Nuestras Categorias" subtitle="Explora nuestras Categorias" />
+<section>
+  <app-heading title="Nuestras Categorias" subtitle="Explora nuestras Categorias" />
+  <div class="contenedor-cards contenedor">
+    <app-card *ngFor="let item of categorias" [content]="item" />
+  </div>
+</section>

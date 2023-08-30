@@ -55,3 +55,12 @@ p {
 .toolbar #youtube-logo:hover {
   opacity: 0.8;
 }
+
+.contenedor-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-block: 30px;
+}
