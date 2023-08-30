@@ -1,0 +1,8 @@
+<div class="card">
+  <img [alt]="'img' + '-' + content.title" [src]="content.imgUrl">
+  <div class="card-body">
+    <h3>{{content.title}}</h3>
+    <p>{{content.caption}}</p>
+    <app-button [title]="content.textoBoton" />
+  </div>
+</div>
