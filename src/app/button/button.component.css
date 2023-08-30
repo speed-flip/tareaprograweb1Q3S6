@@ -1,0 +1,21 @@
+.button {
+  display: block;
+  background-color: rgb(30, 30, 178);
+  color: white;
+  width: 100%;
+  padding-inline: 15px;
+  padding-block: 10px;
+  text-align: center;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: all .3s ease;
+  font-weight: bold;
+}
+
+.button:hover {
+  background-color: rgb(25, 25, 148);
+}
+
+.button:active {
+  transform: scale(0.9);
+}
